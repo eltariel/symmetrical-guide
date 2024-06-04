@@ -39,6 +39,7 @@
         plugins = [
           "git"
           "thefuck"
+          "poetry"
           #  "fzf"
           #  "zoxide"
         ];
