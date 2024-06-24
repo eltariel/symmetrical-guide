@@ -16,8 +16,8 @@
   };
 
   fonts = {
-    fontDir.enable = true;
-    fonts = [
+    # fontDir.enable = true;
+    packages = [
       pkgs.nerdfonts
     ];
   };
