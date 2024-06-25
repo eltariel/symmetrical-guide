@@ -28,18 +28,22 @@
     zsh = {
       enable = true;
       enableCompletion = true;
-      autosuggestion.enable = true;
+      autosuggestion.enable = false;
       syntaxHighlighting.enable = true;
 
       history.size = 10000;
       history.path = "${config.xdg.dataHome}/zsh/history";
 
+      profileExtra = ''
+        zstyle ':completion:*' rehash true
+      '';
+
       oh-my-zsh = {
         enable = true;
         plugins = [
           "git"
-          "thefuck"
           "poetry"
+          "brew"
           #  "fzf"
           #  "zoxide"
         ];
@@ -97,6 +101,7 @@
     };
 
     zoxide.enable = true;
+    thefuck.enable = true;
 
     home-manager.enable = true;
   };
