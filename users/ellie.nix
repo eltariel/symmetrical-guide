@@ -25,6 +25,11 @@
   };
 
   programs = {
+    zellij = {
+      enable = true;
+      enableZshIntegration = true;
+    };
+
     zsh = {
       enable = true;
       enableCompletion = true;
