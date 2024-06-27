@@ -40,6 +40,7 @@
           inherit system specialArgs;
           modules = [
             ./configuration.nix
+            ./homebrew.nix
 
             home-manager.darwinModules.home-manager
             {

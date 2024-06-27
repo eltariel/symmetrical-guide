@@ -30,6 +30,8 @@
 
   programs.zsh.enable = true; # default shell on catalina
 
+  environment.pathsToLink = [ "/share/zsh" ];
+
   nixpkgs.hostPlatform = "aarch64-darwin";
   nixpkgs.config.allowUnfree = true;
 
