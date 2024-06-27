@@ -105,6 +105,11 @@
     zoxide.enable = true;
     thefuck.enable = true;
 
+    tmux = {
+      enable = true;
+      # TODO: config
+    };
+
     home-manager.enable = true;
   };
 
