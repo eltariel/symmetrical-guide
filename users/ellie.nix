@@ -37,7 +37,7 @@
       profileExtra = ''
         zstyle ':completion:*' rehash true
         eval "$(/opt/homebrew/bin/brew shellenv)"
-        export PATH="$PATH:/Users/ellie/.local/bin:/Users/ellie/Library/Application Support/JetBrains/Toolbox/scripts"
+        export PATH="/Users/ellie/.rd/bin:$PATH:/Users/ellie/.local/bin:/Users/ellie/Library/Application Support/JetBrains/Toolbox/scripts"
       '';
 
       oh-my-zsh = {
@@ -83,7 +83,7 @@
     eza = {
       enable = true;
       git = true;
-      icons = true;
+      icons = "auto";
       # extraConfig = [""];
     };
 

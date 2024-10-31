@@ -84,7 +84,6 @@
       "midi-monitor"
       "obs"
       "obs-backgroundremoval"
-      "podman-desktop"
       "powershell"
       "raspberry-pi-imager"
       "raycast"
