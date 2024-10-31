@@ -67,6 +67,7 @@
       "firefox"
       "focusrite-control"
       "freecad"
+      "rancher"
       "gimp"
       "google-chrome"
       "inkscape"
