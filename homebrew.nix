@@ -72,6 +72,7 @@
       "google-chrome"
       "inkscape"
       "jetbrains-toolbox"
+      "jordanbaird-ice"
       "kdenlive"
       "keymapp"
       "kube-forwarder"
