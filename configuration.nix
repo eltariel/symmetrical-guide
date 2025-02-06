@@ -18,7 +18,7 @@
   fonts = {
     # fontDir.enable = true;
     packages = [
-      pkgs.nerdfonts
+      pkgs.nerd-fonts.victor-mono
     ];
   };
 
